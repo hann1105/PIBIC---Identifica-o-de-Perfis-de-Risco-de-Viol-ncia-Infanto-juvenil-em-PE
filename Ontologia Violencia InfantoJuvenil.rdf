@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil/"
+     xml:base="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil">
+        <rdfs:comment>Esta Ontologia tem como objetivo representar e estruturar os dados de Violência Infanto Juvenil em Pernambuco, e possibilitar a integração e análise desses dados para possíveis inferências acerca de municípios com maiores taxas e permitir identificar relações dessas ocorrências dentro do estado. 
+A ontologia busca formalizar os conceitos, as entidades, os atributos e as relações envolvidos nos registros de violência infantojuvenil, considerando aspectos como vítimas, ocorrências, características das vítimas, tipos de violência, faixa etária, sexo, período e localização geográfica.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#ocorreuEm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#ocorreuEm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#ocorreuNoAno -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#ocorreuNoAno">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#pertenceAFaixaEtaria -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#pertenceAFaixaEtaria">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#pertenceARegiao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#pertenceARegiao">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#pertenceAoTipo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#pertenceAoTipo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#anoFato -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#anoFato">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#faixaEtaria -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#faixaEtaria">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#idade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#idade">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#mesFato -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#mesFato">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#naturezaJuridica -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#naturezaJuridica">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#nomeMunicipio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#nomeMunicipio">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#nomeRegiao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#nomeRegiao">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#proporcaoDomestica -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#proporcaoDomestica">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#sexo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#sexo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#situacaoIdade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#situacaoIdade">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#totalRegistros -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#totalRegistros">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#totalVitimas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#totalVitimas">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Municipio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Municipio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Territorio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Ocorrencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Ocorrencia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#OcorrenciaDomestica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#OcorrenciaDomestica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Ocorrencia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#OcorrenciaMorteViolenta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#OcorrenciaMorteViolenta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Ocorrencia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#OcorrenciaSexual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#OcorrenciaSexual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Ocorrencia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#PerfilAltoDomestico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#PerfilAltoDomestico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Municipio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#RegiaoGeografica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#RegiaoGeografica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Territorio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Territorio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Territorio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Vitima -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dalva/ontologies/2026/10/ontologia_dados_infantojuvenil#Vitima"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
